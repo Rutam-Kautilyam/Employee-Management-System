@@ -1,0 +1,45 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio and JetBrains
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.csproj.user
+
+# Test results and coverage
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.coverage
+*.coveragexml
+*.trx
+coverage/
+artifacts/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# ASP.NET local configuration and secrets
+appsettings.Local.json
+appsettings.*.Local.json
+.env
+.env.*
+*.pfx
+*.p12
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+~$*
+
+# Operating system files
+.DS_Store
+Thumbs.db
